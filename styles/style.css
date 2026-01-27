@@ -5,6 +5,133 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* sheared styles  */
+
+.display-flex{
+    display: flex;
+}
+
+.primary-color{
+    background-color: #1A0B2E;
+}
+
+.secondary-color{
+    background-color: #230E3D;
+}
+
+.font-color{
+    color: #00FF88;
+}
+.gradient-color{
+    background-image: linear-gradient(to right, #F7E93F 0% ,#FB09B4 51% ,#9100F8 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.btn-primary{
+    border: 1px solid rebeccapurple;
+    border-radius: 10000px;
+    width: 135px;
+    height: 44px;
+    padding: 16px 12px;
+    background-image: linear-gradient(to right, #F7E93F 0% ,#FB09B4 51% ,#9100F8 100%);
+    cursor: pointer;
+    
+}
+
+.max-width{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+/* nav section style  */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 32px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+.logo{
+    color: #ffffff;
+    width: 219px;
+    height: 32px;
+}
+.btn{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+    gap:4px;
+    align-items: center;
+}
+
+.btn:hover{
+    
+    background-image: linear-gradient(to right, #F7E93F 0% ,#FB09B4 51% ,#9100F8 100%);
+    background-clip: text;
+    color: transparent;
+   
+}
+
+
+.btn>img{
+    
+    width: 20%;
+
+}
+
+/* responsive design  */
+
+/* for small device  */
+@media screen and (max-width: 576px) {
+
+    .navbar{
+        padding: 20px;
+    }
+    .hidden{
+        display: block;
+    }
+
+    .nav-link,.btn{
+        display: none;
+    }
+
+}
+
+/* for medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar{
+        padding: 20px 130px;
+    }
+    
+}
+/* for large device */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+
+     .navbar{
+        padding: 20px 120px;
+    }
+}
