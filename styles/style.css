@@ -286,6 +286,59 @@
     font-weight: 400;
     color: #ffffff;
 }
+
+/* grid section  */
+.tech-wave-grid-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.grid-card{
+    border: 1px solid #351165;
+    border-radius: 18px;
+    padding: 40px;
+}
+.grid-card-title{
+    margin: 16px 0;
+    font-size:1.5rem ;
+    font-weight:700 ;
+    color: #ffffff;
+}
+.grid-card-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff3b;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom:  120px;
+    gap: 40px;
+}
+#wave-grid-1{
+    grid-row: span 2;
+}
+#wave-grid-2{
+    grid-column: span 2;
+}
+
+#wave-grid-3{
+    grid-column: span 2;
+}
+
+#wave-grid-4{
+    grid-column: span 2;
+}
+
+#wave-grid-5{
+grid-column: span 1;
+}
+
+
 /* responsive design  */
 
 /* for small device  */
@@ -363,6 +416,19 @@
         gap: 50px;
     }
 
+    /* grid section */
+    
+    .tech-wave-grid-title{
+    font-size: 2.2rem;
+}
+    .grid-layout{
+        grid-template-columns:repeat(1, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+   
 }
 
 /* for medium device */
@@ -424,6 +490,38 @@
         gap: 50px;
     }
 
+        /* grid section */
+    
+    .tech-wave-grid-title{
+    font-size: 2.6em;
+}
+    .grid-layout{
+        grid-template-columns:repeat(2, 1fr);
+        padding-left: 60px;
+        padding-right: 60px;
+        
+    }
+
+    #wave-grid-1{
+        grid-row:  span 1;
+    }
+    #wave-grid-2{
+        grid-column: span 1;
+    }
+    #wave-grid-3{
+        grid-column: span 1;
+    }
+    #wave-grid-4{
+        grid-column: span 1;
+    }
+
+
+     #wave-grid-5{
+        grid-column: span 2;
+     }
+
+   
+
 
     
 }
@@ -474,5 +572,40 @@
         gap: 50px;
     }
 
+    
+        /* grid section */
+    
+    .tech-wave-grid-title{
+    font-size: 2.6em;
+}
+    .grid-layout{
+        grid-template-columns:repeat(2, 1fr);
+        /* padding-left: 60px;
+        padding-right: 60px; */
+        gap:40px;
+        padding:0 40px;
+        padding-bottom:60px;
+        
+    }
+
+    #wave-grid-1{
+        grid-row:  span 1;
+    }
+    #wave-grid-2{
+        grid-column: span 1;
+    }
+    #wave-grid-3{
+        grid-column: span 1;
+    }
+    #wave-grid-4{
+        grid-column: span 1;
+    }
+
+
+     #wave-grid-5{
+        grid-column: span 2;
+     }
+
+   
 
 }
