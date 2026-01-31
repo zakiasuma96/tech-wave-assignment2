@@ -338,6 +338,67 @@
 grid-column: span 1;
 }
 
+/* featured section designed */
+.featured-container{
+    padding: 120px 0;
+    
+}
+
+.featured-text{
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.featured-card-container{
+    gap: 30px;
+}
+
+.featured-card{
+    width: 380px;
+    height: 440px;
+    background-color: #250D44;
+    border: 1px solid #1A0B2E;
+    border-radius: 16px;
+    
+}
+
+.card-video{
+    border: 1px solid #1A0B2E;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.card-content{
+    padding: 24px;
+}
+
+.card-title{
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.card-text{
+    color: #ffffff2c;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card-time{
+    gap: 6px;
+    align-items:center ;
+}
+
+.card-time-text{
+    color: #00FF88;
+}
+
+
 
 /* responsive design  */
 
@@ -426,6 +487,26 @@ grid-column: span 1;
         padding-left: 20px;
         padding-right: 20px;
         
+    }
+
+    /* featured section */
+    .featured-text{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .featured-card-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .featured-card{
+        width: 100%;
+        
+    }
+
+    .card-video{
+        width: 100%;
     }
 
    
@@ -520,7 +601,25 @@ grid-column: span 1;
         grid-column: span 2;
      }
 
-   
+   /* featured section */
+    .featured-text{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .featured-card-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .featured-card{
+        width: 100%;
+        
+    }
+
+    .card-video{
+        width: 100%;
+    }
 
 
     
@@ -606,6 +705,27 @@ grid-column: span 1;
         grid-column: span 2;
      }
 
+   /* featured section */
+   .featured-section{
    
+    padding: 0 40px;
 
+   }
+
+  .featured-card-container{
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+ 
+  }
+
+  .featured-card{
+    
+    width: 100%;
+
+    }
+
+    .card-video{
+        width: 100%;
+    }
 }
