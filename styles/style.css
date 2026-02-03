@@ -376,7 +376,7 @@ grid-column: span 1;
     padding: 24px;
 }
 
-.card-title{
+.card-title2{
     color: #ffffff;
     margin-bottom: 12px;
     font-weight: 800;
@@ -396,6 +396,60 @@ grid-column: span 1;
 
 .card-time-text{
     color: #00FF88;
+}
+
+/* host section style */
+.meet-section{
+    padding-bottom: 120px ;
+}
+.meet-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.meet-host-container{
+    background-image:linear-gradient(#541a9f42 100%, #ffffff 100%, #6b0ee6da 40%);
+    display: flex;
+    justify-content: center;
+    border: 1px solid #3511655d;
+    border-radius: 16px;
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.host-name{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.host-bio{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff27;
+    line-height: 24px;
+    margin: 1rem 0;
+
+}
+
+.host-link{
+    display: flex;
+    gap: 16px;
+}
+
+.host-link-item{
+    border: 1px solid #351165;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -507,6 +561,31 @@ grid-column: span 1;
 
     .card-video{
         width: 100%;
+    }
+
+    /* host section  */
+
+    .meet-section{
+        padding-left: 40px  ;
+        padding-right: 40px ;
+    }
+
+    .meet-host-container{
+        flex-direction: column;
+        
+    }
+
+    .host-content{
+        text-align: center;
+       
+    } 
+
+    .host-name{
+        font-size: 1.5rem;
+    }
+    .host-link{
+        justify-content: center;
+     
     }
 
    
@@ -621,6 +700,13 @@ grid-column: span 1;
         width: 100%;
     }
 
+    /* host section  */
+
+    
+    .meet-section{
+        padding-left: 40px  ;
+        padding-right: 40px ;
+    }
 
     
 }
